@@ -2,6 +2,7 @@ export type Post = {
   id: {
     id: string;
     title: string;
+    comments: Comment[];
   };
 };
 
