@@ -1,5 +1,3 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
 import { Comment } from "./types";
 
 export default function CommentList({ comments }: { comments: Comment[] }) {
